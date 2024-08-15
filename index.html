@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SANGAM WILMSLOW LTD HEALD GREEN</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>SANGAM WILMSLOW LTD </h1>
+        </header>
+
+        <nav class="navbar">
+            <button class="nav-button" id="staffWagesBtn">Staff Wages</button>
+        </nav>
+
+        <form id="salesForm">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Day</th>
+                        <th>Date</th>
+                        <th>Card (£)</th>
+                        <th>Cash (£)</th>
+                        <th>Deliveroo (£)</th>
+                        <th>Total Sale (£)</th>
+                        <th>Total Cash Tips (£)</th>
+                        <th>Service Charge (£)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Monday</td>
+                        <td><input type="date" name="date" required></td>
+                        <td><input name="card"  step="0.01"  required></td>
+                        <td><input name="cash"  step="0.01"  required></td>
+                        <td><input name="deliveroo"  step="0.01"  required></td>
+                        <td><input name="totalSale"  step="0.01"  required readonly></td>
+                        <td><input name="totalCashTips"  step="0.01"  required></td>
+                        <td><input name="serviceCharge"  step="0.01"  required></td>
+                    </tr>
+                    <tr>
+                        <td>Monday</td>
+                        <td><input type="date" name="date" required></td>
+                        <td><input name="card"  step="0.01"  required></td>
+                        <td><input name="cash"  step="0.01"  required></td>
+                        <td><input name="deliveroo"  step="0.01"  required></td>
+                        <td><input name="totalSale"  step="0.01"  required readonly></td>
+                        <td><input name="totalCashTips"  step="0.01"  required></td>
+                        <td><input name="serviceCharge"  step="0.01"  required></td>
+                    </tr>
+                    <tr>
+                        <td>Monday</td>
+                        <td><input type="date" name="date" required></td>
+                        <td><input name="card"  step="0.01"  required></td>
+                        <td><input name="cash"  step="0.01"  required></td>
+                        <td><input name="deliveroo"  step="0.01"  required></td>
+                        <td><input name="totalSale"  step="0.01"  required readonly></td>
+                        <td><input name="totalCashTips"  step="0.01"  required></td>
+                        <td><input name="serviceCharge"  step="0.01"  required></td>
+                    </tr>
+                    <tr>
+                        <td>Monday</td>
+                        <td><input type="date" name="date" required></td>
+                        <td><input name="card"  step="0.01"  required></td>
+                        <td><input name="cash"  step="0.01"  required></td>
+                        <td><input name="deliveroo"  step="0.01"  required></td>
+                        <td><input name="totalSale"  step="0.01"  required readonly></td>
+                        <td><input name="totalCashTips"  step="0.01"  required></td>
+                        <td><input name="serviceCharge"  step="0.01"  required></td>
+                    </tr>
+                    <tr>
+                        <td>Monday</td>
+                        <td><input type="date" name="date" required></td>
+                        <td><input name="card"  step="0.01"  required></td>
+                        <td><input name="cash"  step="0.01"  required></td>
+                        <td><input name="deliveroo"  step="0.01"  required></td>
+                        <td><input name="totalSale"  step="0.01"  required readonly></td>
+                        <td><input name="totalCashTips"  step="0.01"  required></td>
+                        <td><input name="serviceCharge"  step="0.01"  required></td>
+                    </tr>
+                    <tr>
+                        <td>Monday</td>
+                        <td><input type="date" name="date" required></td>
+                        <td><input name="card"  step="0.01"  required></td>
+                        <td><input name="cash"  step="0.01"  required></td>
+                        <td><input name="deliveroo"  step="0.01"  required></td>
+                        <td><input name="totalSale"  step="0.01"  required readonly></td>
+                        <td><input name="totalCashTips"  step="0.01"  required></td>
+                        <td><input name="serviceCharge"  step="0.01"  required></td>
+                    </tr>
+                    <tr>
+                        <td>Monday</td>
+                        <td><input type="date" name="date" required></td>
+                        <td><input name="card"  step="0.01"  required></td>
+                        <td><input name="cash"  step="0.01"  required></td>
+                        <td><input name="deliveroo"  step="0.01"  required></td>
+                        <td><input name="totalSale"  step="0.01"  required readonly></td>
+                        <td><input name="totalCashTips"  step="0.01"  required></td>
+                        <td><input name="serviceCharge"  step="0.01"  required></td>
+                    </tr>
+                    
+                    
+                    <!-- Repeat above row for other days -->
+                </tbody>
+                <tfoot>
+                    <tr class="totalsRow">
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <button type="button" class="calculateColumnTotal" data-column="2">Total</button>
+                            <span class="columnTotal" data-column="2">£0.00</span>
+                        </td>
+                        <td>
+                            <button type="button" class="calculateColumnTotal" data-column="3">Total</button>
+                            <span class="columnTotal" data-column="3">£0.00</span>
+                        </td>
+                        <td>
+                            <button type="button" class="calculateColumnTotal" data-column="4">Total</button>
+                            <span class="columnTotal" data-column="4">£0.00</span>
+                        </td>
+                        <td>
+                            <button type="button" class="calculateColumnTotal" data-column="5">Total</button>
+                            <span class="columnTotal" data-column="5">£0.00</span>
+                        </td>
+                        <td>
+                            <button type="button" class="calculateColumnTotal" data-column="6">Total</button>
+                            <span class="columnTotal" data-column="6">£0.00</span>
+                        </td>
+                        <td>
+                            <button type="button" class="calculateColumnTotal" data-column="7">Total</button>
+                            <span class="columnTotal" data-column="7">£0.00</span>
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+
+            <div class="grand-total-container">
+                <button type="button" id="calculateGrandTotal">Grand Total</button>
+                <span id="grandTotal">£0.00</span>
+            </div>
+            
+            <div class="buttons">
+                <button type="button" onclick="window.print()" id="printBtn">Print</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
